@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #8cd4f3;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+    border:1px dashed black;
+    height: 25px;
+    background-color: #e8b83f;
+}
+
+.link{
+    width: 40%;
+    border:1px dashed black;
+    height: 25px;
+    background-color: #e8b83f;
+    text-align: center;
+    
+}
+
+.login{
+    width: 15%;
+    border:1px dashed black;
+    height: 25px;
+    background-color: #e8b832;
+    text-align: right;
+}
+
+.sezione1{
+    height: 400px;
+    background-color: rgb(7, 7, 166);
+    display: flex;
+
+}
+ .box{
+     width: 50%;
+     height: 80%;
+     background-color: rgb(244, 18, 199);
+     margin: auto;
+     border:1px dashed black;
+     
+ }
+
+ .sezione2{
+     height: 400px;
+     background-color: white;
+     margin: auto;
+     display: flex;
+ }
+
+ .box1{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+ }
+    
+
+ .immagine{
+     height:100%;
+     width: 60%;
+     background-color: rgb(46, 72, 219);
+     border:1px dashed black;
+ }
+
+ .testo{
+     height: 100%;
+     width: 40%;
+     background-color: pink;
+     border:1px dashed black;
+     
+ }
+
+ #gray{
+     background-color: rgb(175, 163, 163);
+ }
+ .boxgray{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+     flex-direction: row-reverse;
+ }
+
+ .sezione3{
+     height: 700px;
+     background-color:rgb(175, 163, 163);
+     display: flex;
+ }
+
+.box2{
+    display: flex;
+    height: 80%;
+    width: 70%;
+    background-color: green;
+    margin: auto;
+    border:1px dashed black;
+}
+
+.black{
+    background-color: black;
+    height: 500px;
+    display: flex;
+
+}
+
+.boxFooter{
+    display: flex;
+    height:90%;
+    width: 70%;
+    margin: auto;
+}
+ 
+.social{
+    width: 30%;
+    background-color: rgb(243, 124, 144);
+    border:1px dashed black;
+
+}
+
+.info{
+    width: 17%;
+    background-color: aquamarine;
+    border:1px dashed rgb(255, 255, 255);
+}
+
+.chiusura{
+    height: 40px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.barra{
+    height: 70%;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ 
+.barranera{
+    width: 60%;
+    background-color: black;
+    height: 8px;
+    border-radius: 5px;
+}
+
+button{
+    border:1px dashed black;
+    padding: 2px;
+    background-color: pink;
+}
